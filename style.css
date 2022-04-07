@@ -1,0 +1,124 @@
+#banner {
+		width: 100vw;
+		height: 100vh;
+		background-image:url(images/tennis2.jpg);
+		background-size: cover;
+		background-position: center;
+		text-align: center;
+
+}
+
+h1 {color: red;
+	font-size: 75px;
+	padding-top: 30vh;
+	margin: 0;
+	font-family: Chivo;
+}
+
+#subtitle{
+	text-align: center;
+	padding-right: 40vh;
+	font-size: 40px
+}
+
+
+#main-subtitle {
+	 color: red;
+	 text-align: center;
+	 opacity: 0,2;
+	 font-family: Overpaass;
+	 font-size: 45px;
+}
+
+#blue-button {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 30px;
+	background-color: #0D1EC6;
+	padding: 15px 45px;
+	position: relative;
+	top: 15px;
+	border-radius: 9px;
+	font-weight: 900;
+}
+#blue-button:hover {
+	background-color: red;
+	transition:all 0.5s ease-out;
+	padding: 20px 60px ;
+}
+#subtitle {
+	color: blue;
+	font-family: Chivo;
+	color: #404042;
+	font-weight: bold;
+	margin-left: 20%;
+}
+
+#container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card {
+	background-color: white;
+	width: 300px;
+	height: 315px;
+	box-shadow: 0 0 16px rgb(0,0,0,0.3);
+	border-radius: 4px;
+	padding: 24px;
+	margin: 8px; 
+	margin-bottom: 8px
+}
+
+.card img{
+	width:100%;
+	height: 300px;
+	border-radius: 8px;
+	object-fit: cover;
+
+}
+
+
+
+
+.card h3{
+	font-family: Chivo;
+	font-size: 14px;
+}
+
+.red {
+	color: red;
+}
+
+.blue{
+	color: blue;
+
+}
+
+#footer {                   
+	height: 50px;
+	background-color: blue;
+	color: red;
+	padding-top: 4%;
+	text-align: center;
+	margin-top: 40px;
+	font-family: Overpass;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
